@@ -1,0 +1,20 @@
+
+<section class="container mt-2">
+<div class="row">
+    <label>Title</label>
+    <input class="form-control inputFormat" type="text" #Totitle  placeholder="What to do..." name="title" >
+    <label>Description</label>
+      <textarea class="form-control" #Desc rows="4" placeholder="I tried to associate between this area field and the title but I couldn't, I will leave it be for future tries"></textarea> 
+</div>
+<div class="submit container" (click)="submit(Totitle.value, Desc.value)">
+    Submit
+</div>
+</section>
+
+<section class="container mt-4"> 
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let t of TodoTiList">
+      <h2>{{t}}<i (click)="deleteItem(t)" class="fa fa-trash fa-fw"></i></h2>
+    </li>
+  </ul>
+</section>

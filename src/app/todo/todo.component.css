@@ -1,0 +1,40 @@
+
+
+.submit
+{
+    background-color: #D98880;
+    height: 80px;
+    width: 140px;
+    border-radius: 0.5em;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    vertical-align: middle;
+    padding-top: 2.2%;
+    margin-top: 2%;
+}
+
+.submit:hover
+{
+    cursor: pointer;
+    background-color: #A93226;
+}
+.dse
+{
+    color: #27AE60;
+}
+
+.list-group-item i
+{
+    font-size: 1.5em;
+    color: #D7DBDD;
+    float: right;
+}
+.list-group-item i:hover{
+    color: #E74C3C;
+    cursor: pointer;
+}
+.inputFormat
+{
+    font-size: 1.5em;
+}

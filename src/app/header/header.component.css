@@ -1,0 +1,53 @@
+header h1
+{
+    color: #797D7F;
+}
+.mainIcon
+{
+    width: 10%;
+    height: 100px;
+    background-color: #F2F3F4;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.5em;
+}
+
+.mainIconCont
+{
+    width: 50%;
+    height: 50%;
+    font-size: 4em;
+    
+}
+
+.mainIconCont i
+{
+    color: #D7DBDD;
+    margin: 0 auto;
+}
+
+
+.mainIconLeft
+{
+    border-right: solid 1px #fff;
+    height: 100%;
+}
+
+.mainIconRight
+{
+    border-left: solid 1px #fff;
+    height: 100%;
+}
+
+.mainIconLeft:hover .fa-archive
+{
+    color: #F39C12 !important;
+    cursor: pointer;
+}
+
+.mainIconRight:hover .fa-list-alt
+{
+    color: #27AE60 !important;
+    cursor: pointer;
+}
